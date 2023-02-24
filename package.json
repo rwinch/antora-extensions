@@ -40,7 +40,8 @@
     "lib"
   ],
   "dependencies": {
-    "@antora/expand-path-helper": "~2.0"
+    "@antora/expand-path-helper": "~2.0",
+    "handlebars" : "latest"
   },
   "devDependencies": {
     "@asciidoctor/tabs": "latest",
@@ -53,8 +54,7 @@
     "mocha": "~10.2",
     "nyc": "~15.1",
     "prettier-eslint": "~15.0",
-    "simple-get": "latest",
-    "handlebars" : "latest"
+    "simple-get": "latest"
   },
   "keywords": [
     "antora",
