@@ -30,6 +30,7 @@
   "exports": {
     ".": "./lib/index.js",
     "./partial-build-extension": "./lib/partial-build-extension.js",
+    "./publish-docsearch-config-extension": "./lib/publish-docsearch-config-extension.js",
     "./tabs-migration-extension": "./lib/tabs-migration-extension.js"
   },
   "imports": {
@@ -38,6 +39,9 @@
   "files": [
     "lib"
   ],
+  "dependencies": {
+    "@antora/expand-path-helper": "~2.0"
+  },
   "devDependencies": {
     "@asciidoctor/tabs": "latest",
     "chai": "~4.3",
@@ -49,7 +53,8 @@
     "mocha": "~10.2",
     "nyc": "~15.1",
     "prettier-eslint": "~15.0",
-    "simple-get": "latest"
+    "simple-get": "latest",
+    "handlebars" : "latest"
   },
   "keywords": [
     "antora",
